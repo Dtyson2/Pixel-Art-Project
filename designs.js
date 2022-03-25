@@ -1,3 +1,5 @@
+// Select size input
+// Select color input
 var height;
 var width;
 var color = "colorPicker";
@@ -24,7 +26,7 @@ function makeGrid(height, width) {
   }
 }
 
-//change color
+//Ability to change color
 
 function changeColor() {
   this.style.background = pickColor.value;
